@@ -1,0 +1,6 @@
+fl = float(input("Enter the number of fresh loaves purchased: "))
+ol = float(input("Enter the number of day-old loaves purchased: "))
+print("Regular price: Rs.185.00")
+print("Amount for new loaves:",fl*185)
+print("Amount for day-old loaves:",ol*(185*0.6))
+print("Total amount: Rs.",fl*185 + ol*(185*0.6))
